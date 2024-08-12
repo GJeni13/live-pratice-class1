@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+body{
+    all: unset;
+}
+.qwigley-regular{
+    font-family: "qwigley",cutsive;
+    font-weight: 400;
+    font-style: normal;
+}
+.color-primary-light{
+    color:rgba(255,179,14,1) !important;
+}
+.color-primary-dark{
+    color: rgba(241,114,40,1) !important;
+}
+.color-white{
+    color: #fff !important;
+}
+.bg-primary-light{
+    background: rgba(255,179,14,1) !important ;
+}
+.bg-primary-dark{
+    background: rgba(241,114,40,1) !important;
+}
+.bg-primary-subtle{
+    background: rgba(241,114,40,0.1) !important;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin: unset;
+    font-size: 4rem;
+}
+.location{
+    font-weight: bolder;
+}
+.btn{
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.25em 0.5em;
+    font-size: large;
+    font-weight: bolder;
+}
+.login-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0.5em 1em;
+    border-color: rgba(255,179,14,1);
+}
+.btn-group{
+    align-items: center;
+    display: flex;
+    gap: .5pm;
+}
+.container{
+    display: flex;
+    align-items: center;
+     justify-content: center; 
+    height: 60vh;
+}
+.brand-text{
+    color: #fff;
+    font-size: 5em;
+    margin: unset;
+}
+.option-menu{
+    width: 40vw;
+}
+.options{
+    display: flex;
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 1.5em;
+    align-items: center;
+    gap: 10px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+
+}
+.location-input{
+    background-color: #fff;
+    display: flex;
+    padding: 1rem;
+    gap: 10px;
+    input[type="text"]{
+        flex-grow: 1;
+    }
+}
+.banner-img{
+    transform: scale(0.65);
+}
+.border-none{
+border: none;
+}
+.gap{
+    display: flex;
+    gap: 10px;
+}
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+    gap: 1em;
+}
+.card{
+    width: 17.5vw;
+    h3{
+        margin: unset;
+    }
+    img{
+        width: 100%;
+    }
+    span{
+        padding: 5px 10px;
+        font-weight: bolder;
+        border-radius: 10px;
+    }
+}
+.container3{
+    font-family: "source Sans 3",sans-serif;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.deal-card{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
